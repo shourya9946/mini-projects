@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 390px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top{
+    text-align: center;
+    margin: 20px;
+    font-size: large;
+}
+#game{
+    background-color: red;
+    height: 390px;
+    width: 390px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+.box{
+    height: 120px;
+    width: 120px;
+    font-size: 50px;
+
+}
+#reset{
+    height: 40px;
+    width: 140px;
+    font-size: 20px;
+    /* background-color: beige;   */
+}
+
+
